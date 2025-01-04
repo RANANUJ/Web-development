@@ -1,3 +1,19 @@
 body {
-   background-color: rgb(145, 145, 255);
+   background-color: aquamarine;
+
+   td {
+      border: 2px solid black;
+   }
+
+   a {
+      background-color: rgb(248, 152, 152);
+   }
+
+   p {
+      background-color: rgb(138, 138, 255);
+   }
+
+   div {
+      background-color: rgb(255, 255, 146);
+   }
 }
