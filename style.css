@@ -16,4 +16,22 @@ body {
    div {
       background-color: rgb(255, 255, 146);
    }
+
+   .red {
+      color: rgb(128, 95, 47);
+   }
+
+   .bg-yellow {
+      background-color: rgb(253, 253, 134);
+   }
+
+   #first {
+      /* background-color: rgb(255, 118, 118); */
+   }
+
+   #second {
+      background-color: burlywood;
+   }
+
+   /* comments in css*/
 }
