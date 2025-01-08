@@ -9,7 +9,7 @@
     <!--CSS Starting-->
     <!--Below is inline css-->
     <style>
-        div,
+        /* div,
         span {
             color: red;
             background-color: yellowgreen;
@@ -18,11 +18,62 @@
         h1 {
             background-color: red;
             color: yellow;
+        } */
+        /* Element Selector */
+
+        .red {
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green {
+            color: green;
+        }
+
+        /* Child Selector */
+        div>p {
+            color: blue;
+        }
+
+        /* Descendant Selector */
+        div p {
+            background-color: yellow;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 10;
+            padding: 10;
+        }
+
+        /*  pseudo Selector */
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        div:hover {
+            background-color: yellow;
+        }
+
+        p:first-child {
+            background-color: aqua;
         }
     </style>
 </head>
 
 <body>
+    <div class="one">
+        <p>Iam first</p>
+        <p>Iam seccond</p>
+    </div>
     <h1>
         Lorem ipsum dolor sit amet.
     </h1>
@@ -34,7 +85,7 @@
     </div>
     <span>Lorem ipsum dolor sit amet.</span>
 
-    <!--Lecture 2  Inline, Externel and Internel CSS-->
+    <!--Lecture 15  Inline, Externel and Internel CSS-->
     <h1 style="color: yellow; background-color: red;">About me</h1> <!--Inline CSS-->
     <div>
         Lorem ipsum dolor sit amet.
@@ -42,12 +93,23 @@
     <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, veniam?
     </p>
-    <div>
+    <div id="green">
         <ol>
             <li>Inline CSS is on the design line</li>
             <li>Internel CSS is on style tag</li>
             <li>External CSS is on css file </li>
         </ol>
+    </div>
+
+    <!--Lecture 17 Selector -->
+    <div class="red">
+        Lorem ipsum dolor sit amet.
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, dolore!</p>
+    </div>
+    <div>
+        <a href="https://www.google.com">Go to google</a>
     </div>
 </body>
 
