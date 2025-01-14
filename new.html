@@ -7,19 +7,20 @@
     <title>Gradient Text</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
             margin: 0;
-            background: #f4f4f4;
+            height: 100vh;
+            background: linear-gradient(45deg, #00008b, #4b0082);
+            /* Dark Blue to Dark Purple Gradient */
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
         }
 
         .gradient-text {
             font-size: 100px;
             font-weight: bold;
-            text-align: center;
-            background: linear-gradient(90deg, rgb(253, 58, 58) 30%, rgb(132, 17, 132) 70%);
+            margin: 20px;
+            background: linear-gradient(90deg, red 30%, purple 70%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             font-family: Arial, sans-serif;
